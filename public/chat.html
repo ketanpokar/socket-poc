@@ -1,0 +1,24 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset = 'utf=8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title></title>
+    </head>
+    <body>
+        <!-- <p>Welcome to the socket poc app.</p> -->
+        <div>
+            <h3>People</h3>
+            <div id="users"></div>
+        </div>
+        <form id="message-form">
+            <input type="text" name="message" placeholder="message">
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+
+        <button type="button" id="send-location">Send Location</button>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="./js/chat.js"></script>
+        <script type="text/javascript" src="./js/libs/moment.js"></script>
+    </body>
+</html>
